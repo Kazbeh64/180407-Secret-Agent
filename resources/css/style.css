@@ -1,0 +1,36 @@
+/* borders */
+
+header {
+  border: 1px solid red;
+}
+.container {
+  border: 2px dashed blue;
+}
+
+/* Global */
+html {
+  font-size: 18px;
+  margin: 0;
+  font-family: Helvetica;
+}
+.container {
+  width: 960px;
+}
+
+/* Header */
+header {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.logo_text {
+  color: white;
+  margin: 0.66rem 1rem;
+  display: inline-block;
+}
+.logo_img {
+  height: 1.5rem;
+  display: inline-block;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
