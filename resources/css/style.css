@@ -31,6 +31,13 @@ h1 {
   font-size: 2rem;
   font-weight: bold;
 }
+a {
+  color: white;
+  font-family: Helvetica;
+  font-size: 1rem;
+  text-decoration: none;
+
+}
 
 /* Header */
 header {
@@ -72,4 +79,17 @@ header {
 }
 .main_section h1 {
   margin: 0rem 0rem 2rem 3rem;
+}
+
+/* Navbar */
+.nav_bar {
+  width: 100%;
+  background-color: firebrick;
+  display: flex;
+  justify-content: center;
+}
+.nav_bar nav {
+  display: flex;
+  justify-content: space-between;
+    margin: 0.75rem 0rem;
 }
