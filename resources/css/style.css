@@ -1,5 +1,5 @@
 /* borders */
-
+/*
 header {
   border: 1px solid red;
 }
@@ -9,6 +9,7 @@ header {
 article {
   border: 1px solid red;
 }
+*/
 
 
 /* Global */
@@ -126,4 +127,40 @@ header {
   background-color: black;
   text-align: center;
   padding: 0.5rem;
+}
+
+/* Contact */
+.contact {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+.contact .container {
+  display: flex;
+  justify-content: space-between;
+}
+.contact_box {
+  width: 35%;
+}
+.contact_box div {
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+/* Footer */
+footer {
+  background-color: black;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+}
+footer .container {
+  display: flex;
+  align-items:center;
+}
+.footer_text {
+  color: white;
 }
