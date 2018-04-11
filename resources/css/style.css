@@ -92,20 +92,28 @@ header {
   justify-content: space-between;
     margin: 0.75rem 0rem;
 }
+#tablet {
+  display: none;
+}
 
 /* Item */
 .items {
   display: flex;
   justify-content: center;
   margin-top: 3rem;
+
 }
 .boxes {
   display: flex;
   justify-content: space-between;
+  flex-shrink: 0;
+
+
 }
 .item_box {
   height:auto;
   width: 30%;
+
 }
 .item_img {
  padding: 2rem;
@@ -113,6 +121,7 @@ header {
  width: auto;
  border:4px solid black;
  display: flex;
+
 }
 .item_img img {
   max-height: 100%;
@@ -120,6 +129,7 @@ header {
   height: auto;
   width: auto;
   margin: auto;
+
 }
 .item_text {
   display:block;
@@ -163,4 +173,18 @@ footer .container {
 }
 .footer_text {
   color: white;
+}
+
+/* Media query */
+@media only screen and (max-width:1024px) {
+  #default {
+    display: none;
+  }
+  #tablet {
+    display: block;
+  }
+  .nav_bar nav {
+    justify-content: center;
+  }
+
 }
